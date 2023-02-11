@@ -29,7 +29,7 @@ const Chat = () => {
     // alert('connected')
     setId(socket.id);
   })
-  socket.emit('joined', {user }) // sending datat to backend 
+  socket.emit('joined', {user })
 
   socket.on('welcome', (data) => {
     setMessages([...messages, data])
