@@ -5,7 +5,8 @@ import "./chat.css";
 import Message from '../Message/Message';
 import ReactScrollToBottom from "react-scroll-to-bottom";
 
-const ENDPOINT = 'http://localhost:4500/';
+// const ENDPOINT = 'http://localhost:4500/';
+const ENDPOINT = 'https://chat-application-server-3ntjw3fb0-ankur02.vercel.app/';
 let socket;
 
 const Chat = () => {
